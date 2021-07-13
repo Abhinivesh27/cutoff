@@ -59,7 +59,7 @@ function manip() {
  document.getElementById("b12").innerHTML = b12;
  document.getElementById("bt").innerHTML = Math.round(bt);
 
- document.getElementById("total").innerHTML = total;
+ document.getElementById("total").innerHTML = Math.ceil(total);
  document.getElementById("cutoff").innerHTML = cutoff;
 
 }
