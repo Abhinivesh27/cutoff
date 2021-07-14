@@ -1,5 +1,6 @@
 function manip() {
-    var ten_avg = (parseFloat(document.getElementById("10_1").value) + parseFloat(document.getElementById("10_2").value) + parseFloat(document.getElementById("10_3").value))/6;
+    var ten_avg = parseFloat(document.getElementById("10_1").value) + parseFloat(document.getElementById("10_2").value) + parseFloat(document.getElementById("10_3").value);
+    ten_avg = ten_avg/6;
     var username = document.getElementById("username").value;
     var reg_no = document.getElementById("reg_no").value; 
     var t11 = parseFloat(document.getElementById("11_1").value)/4.5;
