@@ -2,12 +2,12 @@ function manip() {
     var ten_avg = (parseInt(document.getElementById("10_1").value) + parseInt(document.getElementById("10_2").value) + parseInt(document.getElementById("10_3").value))/6;
     var username = document.getElementById("username").value;
     var reg_no = document.getElementById("reg_no").value; 
-    let t11 = parseFloat(document.getElementById("11_1").value,2)/4.5;
-    var e11 = parseFloat(document.getElementById("11_2").value,2)/4.5;
-    var m11 = parseFloat(document.getElementById("11_3").value,2)/4.5;
-    var p11 = parseFloat(document.getElementById("11_4").value,2)/3.5;
-    var c11 = parseFloat(document.getElementById("11_5").value,2)/3.5;
-    var b11 = parseFloat(document.getElementById("11_6").value,2)/3.5; 
+    let t11 = parseFloat(document.getElementById("11_1").value)/4.5;
+    var e11 = parseFloat(document.getElementById("11_2").value)/4.5;
+    var m11 = parseFloat(document.getElementById("11_3").value)/4.5;
+    var p11 = parseFloat(document.getElementById("11_4").value)/3.5;
+    var c11 = parseFloat(document.getElementById("11_5").value)/3.5;
+    var b11 = parseFloat(document.getElementById("11_6").value)/3.5; 
 
     let t12 = parseInt(document.getElementById("12_1").value)*3;
     var e12 = parseInt(document.getElementById("12_2").value)*3;
