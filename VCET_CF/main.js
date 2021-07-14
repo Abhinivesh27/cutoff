@@ -1,6 +1,6 @@
 function manip() {
     var ten_avg = parseFloat(document.getElementById("10_1").value) + parseFloat(document.getElementById("10_2").value) + parseFloat(document.getElementById("10_3").value);
-    ten_avg = ten_avg/6;
+    ten_avg = (ten_avg/6).toString().slice(0,4);;
     console.log(ten_avg);
     var username = document.getElementById("username").value;
     var reg_no = document.getElementById("reg_no").value; 
@@ -29,12 +29,12 @@ function manip() {
     var total = ((ten_avg*6)+t11+e11+m11+p11+c11+b11+t12+e12+m12+p12+c12+b12);
 
  document.getElementById("username_view").innerHTML = username;
- document.getElementById("ten_avg").innerHTML = ten_avg.toString().slice(0,4);
- document.getElementById("ten_avg1").innerHTML = ten_avg.toString().slice(0,4);
- document.getElementById("ten_avg2").innerHTML = ten_avg.toString().slice(0,4);
- document.getElementById("ten_avg3").innerHTML = ten_avg.toString().slice(0,4);
- document.getElementById("ten_avg4").innerHTML = ten_avg.toString().slice(0,4);
- document.getElementById("ten_avg5").innerHTML = ten_avg.toString().slice(0,4);
+ document.getElementById("ten_avg").innerHTML = ten_avg.toString();
+ document.getElementById("ten_avg1").innerHTML = ten_avg;
+ document.getElementById("ten_avg2").innerHTML = ten_avg;
+ document.getElementById("ten_avg3").innerHTML = ten_avg;
+ document.getElementById("ten_avg4").innerHTML = ten_avg;
+ document.getElementById("ten_avg5").innerHTML = ten_avg;
 
  document.getElementById("t11").innerHTML = t11.toString().slice(0,4);
  document.getElementById("t12").innerHTML = t12;
