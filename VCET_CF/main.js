@@ -86,4 +86,4 @@ function PrintDiv()
        printWindow.document.write('</center></body></html>');  
        printWindow.document.close();  
        printWindow.print(); 
-    }  
+}  
