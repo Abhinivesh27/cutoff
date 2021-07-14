@@ -82,5 +82,5 @@ function PrintDiv()
        printWindow.document.write(divContents); 
        printWindow.document.write('</center></body></html>');  
        printWindow.document.close();  
-       printWindow.print();  
+       printWindow.print(); 
     }  
