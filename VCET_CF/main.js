@@ -60,7 +60,7 @@ function manip() {
  document.getElementById("bt").innerHTML = Math.round(bt);
 
  document.getElementById("total").innerHTML = Math.ceil(total);
- document.getElementById("cutoff").innerHTML = cutoff.toFixed(2);
+ document.getElementById("cutoff").innerHTML = cutoff.toString().slice(0,5);
 
 }
 function validateForm() {
@@ -74,7 +74,6 @@ function PrintDiv()
        var printWindow = window.open('', '', 'height=auto,width=auto');  
        printWindow.document.write('<html><head><title>Cutoff Calculation VCET</title>');  
        printWindow.document.write('</head><body ><center>');
-       printWindow.document.write ('<h1>VELALAR COLLEGE OF ENGINEERING AND TECHNOLOGY</h1><br><br><h2>12th Cutoff Calculation</h2>');
        printWindow.document.write(divContents);  
        printWindow.document.write('</center></body></html>');  
        printWindow.document.close();  
