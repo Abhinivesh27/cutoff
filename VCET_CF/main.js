@@ -28,12 +28,12 @@ function manip() {
  console.log(cutoff,total);
 
  document.getElementById("username_view").innerHTML = username;
- document.getElementById("ten_avg").innerHTML = ten_avg.toFixed(1);
- document.getElementById("ten_avg1").innerHTML = ten_avg.toFixed(1);
- document.getElementById("ten_avg2").innerHTML = ten_avg.toFixed(1);
- document.getElementById("ten_avg3").innerHTML = ten_avg.toFixed(1);
- document.getElementById("ten_avg4").innerHTML = ten_avg.toFixed(1);
- document.getElementById("ten_avg5").innerHTML = ten_avg.toFixed(1);
+ document.getElementById("ten_avg").innerHTML = ten_avg.toString().slice(0,4);
+ document.getElementById("ten_avg1").innerHTML = ten_avg.toString().slice(0,4);
+ document.getElementById("ten_avg2").innerHTML = ten_avg.toString().slice(0,4);
+ document.getElementById("ten_avg3").innerHTML = ten_avg.toString().slice(0,4);
+ document.getElementById("ten_avg4").innerHTML = ten_avg.toString().slice(0,4);
+ document.getElementById("ten_avg5").innerHTML = ten_avg.toString().slice(0,4);
 
  document.getElementById("t11").innerHTML = t11.toString().slice(0,4);
  document.getElementById("t12").innerHTML = t12;
