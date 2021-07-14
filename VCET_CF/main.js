@@ -74,8 +74,8 @@ function PrintDiv()
        var printWindow = window.open('', '', 'height=auto,width=auto');  
        printWindow.document.write('<html><head><title>Cutoff Calculation VCET</title>');  
        printWindow.document.write('</head><body ><center>');
-       printWindow.document.write ('<div class="container-fluid head text-center"><h1>VELALAR COLLEGE OF ENGINEERING AND TECHNOLOGY</h1><h2>(Autonomous)</h2><h3>(Approved by AICTE,New Delhi & Affilicated to Anna University,Chennai) Accredited by NAAC with A Grade</h3><h2>Thindal,Erode-638012,Tamilnadu,India</h2><h2><span>ADMISSION 2021-22</span></h2></div>');
-       printWindow.document.write('<h3>$total</h3>');  
+       printWindow.document.write(header); 
+       printWindow.document.write(divContents); 
        printWindow.document.write('</center></body></html>');  
        printWindow.document.close();  
        printWindow.print();  
